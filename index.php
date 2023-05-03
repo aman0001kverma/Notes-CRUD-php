@@ -195,29 +195,46 @@ $d=false;
   <?php
   if($insert)
   {
-    echo '<div class="alert alert-success" role="alert">
-    <strong>Success!</strong> The Note is recorded. 
-  </div>';
+    echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+  </strong> <strong>Success!</strong> The Note is recorded. 
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>';
   }
   if($emp)
   {
-    echo '<div class="alert alert-danger" role="alert">
-    <strong>Fields are Empty</strong>
-  </div>';
+   
+
+  echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <strong>Fields are Empty</strong> 
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>';
   }
 
   if($upd)
   {
-    echo '<div class="alert alert-success" role="alert">
-    <strong>Success!</strong> The Note is Updated Successfully. 
-  </div>';
+  echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <strong>Success!</strong> The Note is Updated Successfully. 
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>';
+
+
   }
 
   if($d)
   {
-    echo '<div class="alert alert-success" role="alert">
-    <strong>Success!</strong> The Note is Deleted . 
-  </div>';
+
+   echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Success!</strong> The Note is Deleted . 
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>';
   }
   ?>
 
