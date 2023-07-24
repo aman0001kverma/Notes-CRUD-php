@@ -1,3 +1,9 @@
+<<<<<<< Updated upstream
+=======
+<!-- thank you -->
+<!-- second attemptafa -->
+<!-- kjhdsakjhdjkashdjk -->
+>>>>>>> Stashed changes
 <?php 
 $servername="localhost";
 $username="root";
