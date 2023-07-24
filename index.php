@@ -1,3 +1,5 @@
+<!-- thank you -->
+
 <?php 
 $servername="localhost";
 $username="root";
